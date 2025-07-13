@@ -1,4 +1,5 @@
 import { reset, seed } from "drizzle-seed";
+
 import { db, sql } from "./connection.ts";
 import { schema } from "./schema/index.ts";
 
